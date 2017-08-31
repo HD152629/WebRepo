@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+#age{
+	width: 100px;
+}
+#weight{
+	width: 100px;
+}
+</style>
+<script>
+
+  function check(){
+    if(document.getElementById("age").value >= 16 && document.getElementById("age").value <= 69){
+    	
+      if(document.getElementById("male").checked){
+        
+	        if(document.getElementById("weight").value>=50){
+	          document.getElementById("text").innerHTML = "헌혈 가능합니다";
+	        }
+	        else{
+	          document.getElementById("text").innerHTML = "체중 미달";
+	        }
+        
+      }
+      else{
+	        if(document.getElementById("weight").value>=45){
+	          document.getElementById("text").innerHTML = "헌혈 가능합니다";
+	        }
+	        else{
+	          document.getElementById("text").innerHTML = "체중 미달";
+	        }  
+      }
+      
+    }else{
+      document.getElementById("text").innerHTML = "연령 부적합";
+    }
+  }
+  </script>
+</head>
+<body>
+	<h1>헌혈 조건 체크</h1>
+	<p>
+		나이 : <input type="text" id="age"> 세
+	</p>
+
+	<p>
+		성별 : 남자<input type="radio" name="gender" id="male" checked> 여자<input
+			type="radio" name="gender" id="female">
+	</p>
+
+	<p>
+		몸무게 : <input type="text" id="weight"> kg
+	</p>
+	<p>
+		<input type="button" onclick="check();" value="헌혈 조건 체크">
+	</p>
+	<p id="text"></p>
+</body>	
+</html>
