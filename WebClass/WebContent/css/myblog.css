@@ -1,0 +1,124 @@
+#signup{
+  margin-left: 7px;
+}
+
+#jumbo{
+  background-image: url('../image/img2.png');
+  height: 678px;
+  padding-top: 230px;
+  background-size: 100%;
+  margin: 0;
+  color: 847E7E;
+}
+
+#my_name{
+  margin: 0;
+  background-color: white;
+  text-align: center;
+}
+
+#jumbo-article{
+  height: 400px;
+  background-color: #F16242;
+  margin:0;
+  padding-top: 90px;
+  color: white;
+}
+
+#hr1{
+  width: 13%;
+  border-color: white;
+}
+
+
+#jumbo-article-title{
+  text-align: center;
+  font-size: 5em;
+}
+
+#jumbo-article-main{
+  text-align: center;
+}
+
+#id, #pw{
+  width: 150px;
+}
+
+#introduce{
+  display: block;
+}
+
+#footer{
+  margin: 0;
+  background-color: white;
+  text-align: center;
+}
+
+#footer-article{
+  padding-top: 25px;
+}
+
+#hr2{
+  width: 10%;
+}
+
+#jumbo-soccer{
+  margin: 0;
+}
+
+#movie{
+  margin: 0;
+}
+
+#spiderman{
+  height: 500px;
+}
+
+#slide{
+  margin: 0;
+  padding-top: 30px;
+}
+
+#skydiving{
+  width: 100%;
+  height: 550px;
+}
+
+#mada{
+  width: 100%;
+  height: 550px;
+}
+
+#global{
+  width: 100%;
+  height: 550px;
+}
+
+.myblog-signup{
+  background-image: url('../image/gradation.jpg');
+}
+
+#signup-title{
+  text-align: center;
+}
+
+
+.signup-main{
+  display: block;
+  height: 500px;
+}
+
+.signup-block{
+  height: 500px;
+  margin-top: 6%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.white{
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+
+}
