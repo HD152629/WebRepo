@@ -3,7 +3,7 @@
 }
 
 #jumbo{
-  background-image: url('../image/img2.png');
+  background-image: url('/WebClass/image/img2.png');
   height: 678px;
   padding-top: 230px;
   background-size: 100%;
