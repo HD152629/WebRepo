@@ -10,19 +10,19 @@
 <body>
 	
 	<%
-		UserVO user = (UserVO) session.getAttribute("user");
+//		UserVO user = (UserVO) session.getAttribute("user");
 	
 	%>
 
 	<p>
 		id =
-		<%=user.getId() %>
+		${user.id}
 		<br>
 		name =
-		<%=user.getName()%>
+		${user.name}
 		<br>
 		nickname =
-		<%=user.getNickname() %>
+		${user.nickname}
 		
 	</p>
 </body>
